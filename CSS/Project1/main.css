@@ -61,7 +61,7 @@ body {
 }
  
 
-.bday-img {
+.gift-img {
     display: flex;
     border: 5px solid white;
     height: 400px;
@@ -72,7 +72,7 @@ body {
     margin: 0 auto;
 }
 
-.bday-img:hover {
+#gift-img-happy:hover {
     background-image: url(./heppay-gippy.gif);
 }
 
@@ -80,16 +80,11 @@ body {
     margin: 10 0px;
 }
 
-.hot-react {
-    display: flex;
-    background-image: url("./gift-cover2.jpg");
-    border: 5px solid white;
-    border-radius: 10px;
-    height: 400px;
-    width: 400px;
-    background-size: cover;
-    margin: 0 auto;
+#gift-img-hot {
+    height: 200px;
 }
-.hot-react:hover {
-    background-image: url("./reaction.gif");
-}
+ 
+#gift-img-hot:hover {
+     background-image: url(./reaction.gif);
+     background-size: cover;
+ }
