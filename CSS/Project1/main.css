@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #98CCFE;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+}
+
+.birthday-title {
+    margin-top: 30px;
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+#birthday-image {
+    display: block;
+    height: 200px;
+    width: 225px;
+    margin: 30px auto;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
+}
+
+#h2, #h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+#age {
+    display: block;
+    background-color: pink;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+#date {
+    display: block;
+    background-color: pink;
+    padding: 5px 10px;
+    margin: 15px auto 0;
+    text-align: center;
+    width: fit-content;
+}
+
+.gift-section {
+    margin-top: 30px;
+}
+
+.gift-hint {
+    margin-top: 10px;
+}
+ 
+
+.bday-img {
+    display: flex;
+    border: 5px solid white;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(./gift-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.bday-img:hover {
+    background-image: url(./heppay-gippy.gif);
+}
