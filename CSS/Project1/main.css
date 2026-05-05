@@ -75,3 +75,25 @@ body {
 .bday-img:hover {
     background-image: url(./heppay-gippy.gif);
 }
+
+#entry-reaction {
+    margin-top: 15px;
+}
+
+.entry-reaction {
+    margin: 10 0px;
+}
+
+.hot-react {
+    display: flex;
+    background-image: url("./gift-cover2.jpg");
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    margin: 0 auto;
+}
+.hot-react:hover {
+    background-image: url("./reaction.gif");
+}
